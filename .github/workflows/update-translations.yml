@@ -3,6 +3,8 @@ name: update translations
 on:
   schedule:
     - cron: 42 7 * * *
+permissions:
+  contents: write
 jobs:
   update_translations:
     name: update translations
