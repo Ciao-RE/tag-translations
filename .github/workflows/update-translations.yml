@@ -2,7 +2,7 @@ name: update translations
 
 on:
   schedule:
-    - cron: 42 7 * * *
+    - cron: 0 0 8,18,28 * *
 permissions:
   contents: write
 jobs:
